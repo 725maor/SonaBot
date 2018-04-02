@@ -145,7 +145,7 @@ bot.on("message", async message => {
   }
 });
 
-bot.login(process.env(token));
+bot.login(token);
 
 
 //ALL YOUTUBE/MUSIC FUNCTIONS HERE
